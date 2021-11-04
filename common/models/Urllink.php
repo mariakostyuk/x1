@@ -10,7 +10,7 @@ use common\helpers\Arr;
 
 class Urllink extends ActiveRecord
 {
-    static $SYMBOLS = '0123456789abcdefghijklmnopqrstuvwxyz';
+    static $SYMBOLS = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
     public static function tableName(): string
     {
